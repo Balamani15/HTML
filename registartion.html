@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/action_page.php">
+        <h1><center><strong>Register Here!!</strong></center></h1>
+        <div id="container">
+            <p><h3>Please fill this form</h3></p>
+            <hr>
+         </div>
+         <label for="fname">Full name:</label><br>
+         <input type="text" placeholder="Enter your name" class="fname" id="fname" required><br>
+         <label for="dob">Date Of Birth</label><br>
+         <input type="date" class="dob" id="dob" required><br>
+         <label for="gender">Gender</label><br>
+         <input type="radio" value="Male"/>Male
+         <input type="radio" value="Female"/>Female
+         <input type="radio" value="Other"/>Other<br>
+         <br>
+         <label for="phone number">Phone number:</label><br>
+         <input type="text" name="country code" value="+91" size="2"/>
+         <input type="number" placeholder="Enter your phone number" size="10">
+         <br>
+         <label>Telephone:</label><br>
+         <input type="tel" placeholder="Enter your telephone number"><br>
+         <label for="course">Course:</label><br>
+         <br>
+         <select>
+         <option value="course">Undergraduate</option>
+         <option value="B.Tech">B.Tech</option>
+         <option value="BCA">BCA</option>
+         <option value="BBA">BBA</option>
+         <option value="B.ED">B.ED</option>
+        </select><br>
+        <br>
+        <select>
+            <option value="course">Postgraduate</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            <option value="M.ED">M.ED</option>
+           </select><br><br>
+         <label>Current Address:</label>
+         <br>
+         <textarea rows="5" cols="54" value="Current address"></textarea><br>
+         <br>
+         <label>Permanent Address:</label>
+         <br>
+         <textarea rows="5" cols="54" value="Permanent address"></textarea><br>
+         <br>
+         <label for="email"> Email:</label><br>
+         <input type="text" placeholder="Enter email" class="email" id="email" required><br>
+         <label for="pwd">Password:</label><br>
+         <input type="password" placeholder="Enter password" class="pwd" id="pwd" required><br>
+         <label for="pwd-repeat">Re-type Password:</label><br>
+         <input type="password" placeholder="Re-type the password" class="pwd-repeat" id="pwd-repeat" required><br>
+<button type="Submit">Register</button>
+<button type="submit">Reset</button>
+<button type="submit">Cancel</button>
+    </form>
+    
+</body>
+</html>
